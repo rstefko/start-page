@@ -14,13 +14,13 @@ const Link = ({ linkData, filter, selection }) => {
 	const target = settings.urlLaunch.target
 
 	const handleClick = (e) => {
-		e.preventDefault();
+		e.preventDefault()
 		if (window.navigator.userAgent.includes("Firefox")) {
-			window.open(url, "_blank", "popup=1,noopener");
-			return;
+			window.open(url, "_blank", "popup=1,noopener")
+			return
 		}
 
-		window.open(url, "_blank", "popup=1,noopener");
+		window.open(url, "_blank", "popup=1,noopener")
 	}
 
 	useEffect(() => {
