@@ -13,6 +13,16 @@ const Link = ({ linkData, filter, selection }) => {
 	const icon = linkData.icon
 	const target = settings.urlLaunch.target
 
+	const handleClick = (e) => {
+		e.preventDefault();
+		if (window.navigator.userAgent.includes('Firefox')) {
+			window.open(url, '_blank', 'popup=1,noopener');
+			return;
+		}
+
+		window.open(url, '_blank', 'popup=1,noopener');
+	}
+
 	useEffect(() => {
 		const lower_command = filter.toLowerCase()
 
@@ -36,6 +46,7 @@ const Link = ({ linkData, filter, selection }) => {
 					isSelected ? "selected" : ""
 				} inline-block px-1 rounded-selection`}
 				href={url}
+				onClick={handleClick}
 				rel="noopener noreferrer nofollow"
 				target={target}>
 				<span className="inline-block w-4 h-4 align-middle">
