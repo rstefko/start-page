@@ -127,6 +127,11 @@
 						"name": "Music",
 						"url": "https://music.stefko.io/",
 						"icon": "simple-icons:applemusic"
+					},
+					{
+						"name": "Notes",
+						"url": "https://notes.stefko.io/",
+						"icon": "mdi:note"
 					}
 				]
 			},
