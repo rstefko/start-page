@@ -132,6 +132,11 @@
 						"name": "Notes",
 						"url": "https://notes.stefko.io/",
 						"icon": "mdi:note"
+					},
+					{
+						"name": "ownCloud",
+						"url": "https://owncloud.stefko.cz/",
+						"icon": "simple-icons:owncloud"
 					}
 				]
 			},
@@ -181,6 +186,45 @@
 						"name": "Reddit",
 						"url": "https://reddit.com",
 						"icon": "mdi:reddit"
+					}
+				]
+			},
+			{
+				"title": "Utils",
+				"color": "red",
+				"align": "left",
+				"links": [
+					{
+						"name": "Auth",
+						"url": "https://auth.stefko.cz/",
+						"icon": "tabler:auth-2fa"
+					}
+				]
+			},
+			{
+				"title": "Shopping",
+				"color": "blue",
+				"align": "left",
+				"links": [
+					{
+						"name": "Allegro",
+						"url": "https://allegro.cz/",
+						"icon": "arcticons:allegro"
+					},
+					{
+						"name": "Alza",
+						"url": "https://alza.cz/",
+						"icon": "arcticons:alza"
+					},
+					{
+						"name": "Aukro",
+						"url": "https://aukro.cz",
+						"icon": "arcticons:auction"
+					},
+					{
+						"name": "Bazos",
+						"url": "https://bazos.cz/",
+						"icon": "arcticons:bazos"
 					}
 				]
 			}
