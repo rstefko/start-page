@@ -20,7 +20,7 @@ const Link = ({ linkData, filter, selection }) => {
 			return
 		}
 
-		window.open(url, "_blank", "popup=1,noopener")
+		window.open(url, "_blank")
 	}
 
 	useEffect(() => {
