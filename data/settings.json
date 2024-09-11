@@ -173,6 +173,11 @@
 				"align": "left",
 				"links": [
 					{
+						"name": "Messages",
+						"url": "https://messages.google.com",
+						"icon": "simple-icons:googlemessages"
+					},
+					{
 						"name": "Twitter",
 						"url": "https://x.com",
 						"icon": "mdi:twitter"
@@ -198,6 +203,11 @@
 						"name": "Auth",
 						"url": "https://auth.stefko.cz/",
 						"icon": "tabler:auth-2fa"
+					},
+					{
+						"name": "Youtube MP3",
+						"url": "https://youtube-mp3.cz/",
+						"icon": "simple-icons:youtubemusic"
 					}
 				]
 			},
