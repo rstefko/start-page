@@ -1,5 +1,5 @@
 {
-	"username": "r00mie",
+	"username": "STEFKONET",
 	"theme": {
 		"name": "Default",
 		"backgroundColor": "#121317",
@@ -178,7 +178,7 @@
 						"icon": "simple-icons:googlemessages"
 					},
 					{
-						"name": "Twitter",
+						"name": "X",
 						"url": "https://x.com",
 						"icon": "mdi:twitter"
 					},
@@ -205,9 +205,14 @@
 						"icon": "tabler:auth-2fa"
 					},
 					{
-						"name": "Youtube MP3",
+						"name": "YT MP3",
 						"url": "https://youtube-mp3.cz/",
 						"icon": "simple-icons:youtubemusic"
+					},
+					{
+						"name": "My IP",
+						"url": "https://ipgive.me/",
+						"icon": "mdi:ip"
 					}
 				]
 			},
